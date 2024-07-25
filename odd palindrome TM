@@ -1,0 +1,146 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {436 451}
+	}
+	state {
+		coord {584 274}
+	}
+	state {
+		coord {624 612}
+	}
+	state {
+		coord {842 271}
+	}
+	state {
+		final {yes}
+		coord {874 428}
+	}
+	state {
+		coord {871 613}
+	}
+	state {
+		coord {1125 249}
+	}
+	state {
+		coord {1146 565}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 0 2 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.7807698396570601}
+		direction {R}
+		output {a}
+	}
+	edge 1 3 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 3 6 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 6 6 {
+		transits {a}
+		offset {2.356194490192345}
+		direction {R}
+		output {a}
+	}
+	edge 6 6 {
+		transits {b}
+		offset {0.6800980338334002}
+		direction {R}
+		output {b}
+	}
+	edge 3 4 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 5 4 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 2 2 {
+		transits {a}
+		offset {-2.799436768506613}
+		direction {R}
+		output {a}
+	}
+	edge 2 5 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 2 2 {
+		transits {b}
+		offset {-0.5177185634675087}
+		direction {R}
+		output {b}
+	}
+	edge 7 0 {
+		transits {c}
+		offset {1.2560181341078036}
+		direction {R}
+		output {c}
+	}
+	edge 7 7 {
+		transits {a}
+		offset {2.3880308636194596}
+		direction {L}
+		output {a}
+	}
+	edge 7 7 {
+		transits {b}
+		offset {0.296844673376403}
+		direction {L}
+		output {b}
+	}
+	edge 0 6 {
+		transits {c}
+		offset {1.2728776422295618}
+		direction {R}
+		output {c}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {595 279}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {579 282}
+	}
+	label {
+		text {q1}
+		font {SansSerif 12 -}
+		coord {579 282}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {369 291}
+	}
+}
